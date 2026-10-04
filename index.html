@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">
+        VAIBHAV <span> SHARMA</span>
+    </a>
+
+    <i class="bx bx-menu" id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#project">Project</a>
+      <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="gradient-btn">Contact Me</button>
+      <a href="resume.pdf" download="Vaibhav_Resume.pdf">
+       <button class="gradient-btn1">Resume</button>
+</a>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-contact">
+            <h1>Hi, It's<span> Vaibhav</span> </h1>
+            <h3>
+                I'm a<span> MERN Stack Developer</span>
+            </h3>
+            <p>I am a developer with a strong passion for AI,
+                 Computer Vision, and modern web development. 
+                 Driven by curiosity and technical precision, 
+                 I build smart systems and responsive applications 
+                 that solve real-world problems.</p>
+            <div class="social-icons">
+                <a href="https://github.com/Vaibhavsha-coder">
+                    <i class="bx bxl-github"> </i>
+                </a>
+                <a href="https://www.linkedin.com/in/vaibhav-sharma-b8321028a/">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+            
+            </div>
+            <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+        </div>
+        
+        <div class="home-img">
+            <img src="image2.png" alt="">
+        </div>
+    </section>
+    <section class="about" id="about">
+
+      <div class="about-img">
+        <img src="image2.png" alt="">
+      </div>
+      <div class="about-content">
+        <h2>About<span>Me</span></h2>
+        <p>I am a versatile developer dedicated to creating high-performance web applications and intelligent software.
+           With a strong foundation in Python, deep learning, and modern web technologies,
+            I love crafting clean user interfaces backed by powerful algorithmic functionality.</p>
+            <a href="#" class="btn">Read more</a>
+      </div>
+    </section>
+    <section class="services" id="services">
+
+      <h2 class="heading">Services</h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <div class="services-info">
+            <i class="bx bxl-figma"></i>
+            <h4>UI / UX Design</h4>
+            <p>Crafting intuitive, user-centered digital interfaces that balance clean aesthetics with seamless functionality.
+               From wireframing and interactive prototyping in Figma to responsive layout design, 
+               I focus on creating visually engaging user experiences that enhance usability and drive engagement across all devices.</p>
+          </div>
+        </div>
+         <div class="services-box">
+          <div class="services-info">
+            <i class="bx bx-code"></i>
+            <h4>Frontend Development</h4>
+            <p>Building fast, responsive, and pixel-perfect web interfaces using modern technologies like HTML, CSS, JavaScript, and React.
+               I convert complex UI designs into clean, maintainable code, ensuring fluid animations, high performance,
+               and seamless cross-browser compatibility.</p>
+          </div>
+        </div>
+         <div class="services-box">
+          <div class="services-info">
+            <i class="bx bx-code-curly"></i>
+            <h4>Backend Development</h4>
+            <p>Engineering secure, high-performance server-side architectures designed for reliability and speed.
+               From database architecture and API integration to complex server-side data processing,
+               I ensure your web applications handle heavy workloads smoothly and securely.</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="project" id="project">
+      <h2 class="heading">Projects</h2>
+      <div class="project-box">
+
+        <div class="project-card">
+          <img src="Gym.png" alt="Gym Management System">
+
+          <h3>Gym managment System</h3>
+          <p>
+            Built and deployed a full-stack Gym Management System using the MERN stack (MongoDB, Express.js, React, Node.js) 
+            and Tailwind CSS. Implemented secure JWT authentication and granular Role-Based Access Control (RBAC) for Admins,
+            Trainers, and Members. Architected server-side data scoping to ensure strict privacy—enabling trainers to access
+            only their assigned clients and members to view strictly their personal workout logs, schedules, and billing 
+            records.
+          </p>
+          <div class="btn">Review Project</div>
+        </div>
+        <div class="project-card">
+          <img src="Incense Sticks.png" alt="Incense-Sticks - Full Stack E-Commerce Platform ">
+
+          <h3>Incense-Sticks - Full Stack E-Commerce Platform </h3>
+          <p>
+            Designed and developed Raghu Rash Organic Store, a modern e-commerce platform dedicated to handcrafted, premium 
+            incense sticks. The site features a warm, inviting aesthetic designed to reflect brand values of peace, positivity,
+             and natural wellness. It provides a seamless browsing experience with clear navigation, highlighted bestsellers, and 
+             responsive layouts tailored for both desktop and mobile users.   
+          </p>
+          <div class="btn">Review Project</div>
+        </div>
+      </div>
+
+    </section>
+    <section class="contact" id="contact">
+      <h2 class="heading">Contant<span>Me</span></h2>
+      <form action="#">
+        <div class="input-groups">
+
+          <div class="input-box">
+
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email">
+
+          </div>
+          <div class="input-box">
+            
+            <input type="number" placeholder="Phone number">
+            <input type="text" placeholder="Subject">
+
+          </div>
+        </div>
+        <div class="input-groups-2">
+
+          <textarea name="" id="" placeholder="Your message" cols="30" rows="10"></textarea>
+          <input type="submit" placeholder="send message" class="btn">
+        </div>
+      </form>
+
+
+    </section>
+    <footer class="footer">
+       <div class="social-icons">
+                <a href="https://github.com/Vaibhavsha-coder">
+                    <i class="bx bxl-github"> </i>
+                </a>
+                <a href="https://www.linkedin.com/in/vaibhav-sharma-b8321028a/">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+        <ul class="list">
+          <li>
+            <a href="#">FAQ</a>
+          </li>
+           <li>
+            <a href="#services">Services</a>
+          </li>
+           <li>
+            <a href="#about">About Me</a>
+          </li>
+           <li>
+            <a href="#project">Projects</a>
+          </li>
+           <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>    
+        
+        <p class="copyright">
+          © Vaibhav Sharma | All Right Reserved
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
